@@ -24,7 +24,7 @@ contract Assignment5 {
     // Initialize `isActive` to true
     constructor() {
         // Fill in the logic
-	isActive = true;
+        isActive = true;
     }
 
     // Function to increment the counter
@@ -33,9 +33,9 @@ contract Assignment5 {
     // - Use a for loop to increment `counter` by 1 for 5 iterations
     function incrementCounter() external {
         // Fill in the logic
-	uint i; uint iterations = 5;
+        uint i; uint iterations = 5;
 
-	for (; i < iterations; i++) counter++;
+        for (; i < iterations; i++) counter++;
     }
 
     // Function to toggle `isActive`
@@ -44,7 +44,7 @@ contract Assignment5 {
     // - Use an if statement to toggle `isActive` between true and false
     function toggleActive() public {
         // Fill in the logic
-	isActive = !isActive; // This will toggle isActive between true and false without if statement
+        isActive = !isActive; // This will toggle isActive between true and false without if statement
 
 	// if (isActive) isActive = false;
 	// else isActive = true;        
@@ -60,8 +60,8 @@ contract Assignment5 {
     // - Update the `userNames` mapping with the address and name
     function addUser(uint id, string calldata name, address userAddress) public {
         // Fill in the logic
-	users.push(User(id, name));
-	userNames[userAddress] = name;
+        users.push(User(id, name));
+        userNames[userAddress] = name;
 
         // Hint: you have to use the keyword `memory` to define the struct
             // For example: User memory user
@@ -74,6 +74,6 @@ contract Assignment5 {
     // - Return the length of the `users` array
     function getUserCount() view public returns (uint) {
         // Fill in the logic
-	return users.length;
+        return users.length;
     }
 }
