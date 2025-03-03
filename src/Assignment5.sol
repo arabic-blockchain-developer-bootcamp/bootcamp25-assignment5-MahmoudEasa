@@ -46,8 +46,8 @@ contract Assignment5 {
         // Fill in the logic
         isActive = !isActive; // This will toggle isActive between true and false without if statement
 
-	// if (isActive) isActive = false;
-	// else isActive = true;        
+        // if (isActive) isActive = false;
+        // else isActive = true;        
     }
 
     // Function to add a user
