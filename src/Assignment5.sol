@@ -33,7 +33,7 @@ contract Assignment5 {
     // - Use a for loop to increment `counter` by 1 for 5 iterations
     function incrementCounter() external {
         // Fill in the logic
-        uint i; uint iterations = 5;
+        uint8 i; uint8 iterations = 5;
 
         for (; i < iterations; i++) counter++;
     }
